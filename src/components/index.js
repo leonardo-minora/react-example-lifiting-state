@@ -1,5 +1,5 @@
 import FormLogin from './FormLogin';
-import Button from './Button';
+import Input from './Input';
 import ButtonImage from './ButtonImage';
 
-export {Button, ButtonImage, FormLogin};
+export {ButtonImage, FormLogin, Input};

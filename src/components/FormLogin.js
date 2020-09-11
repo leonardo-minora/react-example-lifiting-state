@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-constructor */
 import React from 'react';
 
-import {Button, ButtonImage} from '.';
+import {Input, ButtonImage} from '.';
 
 class FormLogin extends React.Component {
     constructor(props) {
@@ -12,7 +12,8 @@ class FormLogin extends React.Component {
     render() {
         return (
             <div>
-                <Button />
+                <Input title='nome do usuário' icon='user-circle' check />
+                <Input type='password' />
                 <ButtonImage />
             </div>
         );
