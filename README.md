@@ -25,3 +25,7 @@
 
 ## Link
 - Tutorial React [Movendo o state para cima](https://pt-br.reactjs.org/tutorial/tutorial.html#lifting-state-up)
+- [Bulma framework para estilo](https://bulma.io)
+  - Tutoriais para React
+    - [Using Bulma with React](https://www.bradmcgonigle.com/blog/using-bulma-with-react)
+    - [Introduction to Bulma CSS with React](https://www.digitalocean.com/community/tutorials/react-intro-react-bulma-components)
