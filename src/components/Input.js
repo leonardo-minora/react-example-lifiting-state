@@ -14,16 +14,18 @@ let Input = (props) => {
     }
 
     let iconClass = props.check ? "icon is-small is-right has-text-success" : "icon is-small is-right";
-    let message = props.message ? props.message : null;
     let messageClass = "help is-success";
+    let message = null;
     if (props.error) {
+        message = props.message ? props.message : null;
         messageClass = "help is-danger";
     }
+    let onChange = props.onChange ? props.onChange : null;
 
     return (
         <div className="field">
             <div className="control has-icons-left has-icons-right">
-                <input className="input" type={type} placeholder={title} />
+                <input className="input" type={type} placeholder={title} onChange={onChange} />
                 <span className="icon is-small is-left">
                     <i className={icon} />
                 </span>
